@@ -15,11 +15,8 @@ int main()
     long long int Fibo[100];
     Fibo[0] = 0, Fibo[1]=1;
     cin>>n;
-    /*
     for(int i=2;i<=n;i++)
         Fibo[i] = Fibo[i-1] + Fibo[i-2];
     cout<<Fibo[n]<<endl;
-    */
-   cout<<F(n)<<endl;
     return 0;
 }
